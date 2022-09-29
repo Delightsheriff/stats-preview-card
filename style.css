@@ -4,6 +4,15 @@ body{
     box-sizing: border-box;
     min-height: 100vh;
     background: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+img{
+    max-width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .attribution {
@@ -18,5 +27,21 @@ body{
 
 .container{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 1440px;
+} 
+.inner-container{
+    display: flex;
+}
+.text-container{
+    background: hsl(244, 38%, 16%);
+    flex: 1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.image-container{
+    flex: 1; 
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
