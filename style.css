@@ -17,6 +17,7 @@ img{
     max-width: 100%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+filter: invert(7%) sepia(39%) saturate(651%) hue-rotate(232deg) brightness(88%) contrast(95%)    
 }
 
 .attribution {
@@ -32,6 +33,7 @@ img{
 .container{
     margin: 0 auto;
     max-width: 1440px;
+
 } 
 .inner-container{
     display: flex;
@@ -43,9 +45,9 @@ img{
     border-bottom-left-radius: 30px;
 }
 .image-container{
-    flex: 1; 
-    
+    flex: 1;    
 }
+
 .grid-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,12 +67,15 @@ h1{
     margin-bottom: .5em;
 }
 span{
-    color: hsl(277, 64%, 61%);
+    color: #aa5cdb;
+   
 }
 p{
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
     font-weight: 400;
     font-family: 'Lato', sans-serif;
+    
+
 
 }
 .grid-text p {
@@ -80,4 +85,5 @@ p{
 .grid-text h2{
     margin-bottom: 0;
     padding-bottom: 0;
+    color: hsla(0, 0%, 100%, 0.6);
 }
